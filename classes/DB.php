@@ -38,5 +38,10 @@
                $stmt->execute();
                return $stmt->fetchAll(PDO::FETCH_ASSOC);
           }  
+          public function deletePet($id){
+               $query = "DELETE from `pets` where id=".$id;
+               $stmt = $this->conn->prepare($query);
+               $stmt->execute();
+          }
      }
 ?>

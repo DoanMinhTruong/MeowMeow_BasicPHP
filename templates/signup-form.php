@@ -7,6 +7,9 @@
                $email = $_POST['email'];
           }
           $sign = true;
+          $data = $db->checkUser($user);
+          if($data)
+                    $sign = false;
           if($user == '' || $pass == '' || $email ==''){
                $sign = false;
           }

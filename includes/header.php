@@ -4,6 +4,7 @@
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+     
      <title>Document</title>
      <style>
           body {
@@ -48,13 +49,16 @@
 </head>
 <body>
      <div class="navbar navbar-expand-md bg-dark text-white">
-               <div class="navbar-brand">PET SHOP</div>
+               <div class="navbar-brand">MỒN LÈOO</div>
                <ul class="navbar nav ml-auto">
                     <li class="nav-item">
                          <a href="index.php" class="nav-link">HOME</a>
                     </li>
                     <li class="nav-item">
                          <a href="add.php" class="nav-link">ADD</a>
+                    </li>
+                    <li class="nav-item">
+                         <a href="delete.php" class="nav-link">DELETE</a>
                     </li>
                     <li class="nav-item">
                          <a href="https://www.facebook.com/ez.dmt" class="nav-link">CONTACT</a>

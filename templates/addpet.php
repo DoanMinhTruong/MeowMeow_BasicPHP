@@ -7,6 +7,11 @@
                $image = $_FILES['petimage'];
                $type = $image['type'];
                $upload = true;
+               $petexitst = $db->fetchAllPet();
+               foreach($petexitst as $p){
+                    if($p['petname'] == $name)
+                         $upload=false;
+               }
                if($name == "" || $info == "" ){
                     $upload = false;
                }

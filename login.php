@@ -16,7 +16,7 @@
                <label for="password">PassWord : </label>
                <input class='form-control' type="password" name="password" placeholder="password..">
                <input class='mt-4 btn btn-primary' type="submit" name="submit" value="Login">
-               <a class='p-5' href="signup.php">Dont have an account?</a>
+               <a class='m-5' href="signup.php">Dont have an account?</a>
           </form>
      </div>
 </body>
